@@ -41,7 +41,11 @@ module.exports = {
         100: '#F55C46'
       }
     },
-    extend: {},
+    extend: {
+      spacing:{
+        '128' : '32rem'
+      }
+    },
   },
   plugins: [],
 }
