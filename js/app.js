@@ -8,11 +8,11 @@ $(document).ready(function(){
 
     $('.slider2').slick({
         arrows:false,
-        dots:false,
+        dots:true,
         slidesToShow:3,
         slidesToScroll:1,
-        centerMode:true
-        // appendDots:'.slider-dots',
+        centerMode:true,
+        appendDots:'.slider2-dots',
         // fade: true
     });
 });

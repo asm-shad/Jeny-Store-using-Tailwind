@@ -11,7 +11,7 @@
     top: 50%;
     transform: translateY(-50%);
 }
-.slider-dots button{
+.slider-dots button, .slider2-dots button{
     font-size: 0;
     width: 8px;
     height: 8px;
@@ -20,7 +20,7 @@
     outline: none;
 }
 
-.slider-dots li.slick-active button{
+.slider-dots li.slick-active button, .slider2-dots li.slick-active button{
     background: #FE7865;
     width: 12px;
     height: 12px;
@@ -142,4 +142,18 @@
 }
 .slick-slide.slick-center .inner_box .label, .slick-slide.slick-center .inner_box .number{
     display: block;
+}
+.slider2-dots{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.slider2-dots ul{
+    display: flex;
+    align-items: center;
+    bottom: -50px;
+}
+.slider2-dots ul li{
+    margin-right: 20px;
 }
