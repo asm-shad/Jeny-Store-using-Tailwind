@@ -5,6 +5,16 @@ $(document).ready(function(){
         appendDots:'.slider-dots',
         fade: true
     });
+
+    $('.slider2').slick({
+        arrows:false,
+        dots:false,
+        slidesToShow:3,
+        slidesToScroll:1,
+        centerMode:true
+        // appendDots:'.slider-dots',
+        // fade: true
+    });
 });
 
 
