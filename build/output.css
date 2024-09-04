@@ -617,6 +617,11 @@ video {
   margin-right: auto;
 }
 
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .-mt-16 {
   margin-top: -4rem;
 }
@@ -677,6 +682,10 @@ video {
   margin-top: 1.5rem;
 }
 
+.mb-48 {
+  margin-bottom: 12rem;
+}
+
 .flex {
   display: flex;
 }
@@ -687,6 +696,10 @@ video {
 
 .h-64 {
   height: 16rem;
+}
+
+.h-px {
+  height: 1px;
 }
 
 .w-1\/2 {
@@ -733,6 +746,10 @@ video {
   width: 100%;
 }
 
+.w-16 {
+  width: 4rem;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -756,6 +773,21 @@ video {
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.border-orange-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(254 120 101 / var(--tw-border-opacity));
+}
+
+.border-orange-100 {
+  --tw-border-opacity: 1;
+  border-color: rgb(254 237 211 / var(--tw-border-opacity));
+}
+
+.border-orange-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(230 96 77 / var(--tw-border-opacity));
 }
 
 .bg-black-400 {
@@ -830,6 +862,10 @@ video {
   padding: 1rem;
 }
 
+.p-8 {
+  padding: 2rem;
+}
+
 .px-16 {
   padding-left: 4rem;
   padding-right: 4rem;
@@ -865,6 +901,11 @@ video {
   padding-bottom: 2rem;
 }
 
+.py-48 {
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+}
+
 .pb-12 {
   padding-bottom: 3rem;
 }
@@ -883,6 +924,14 @@ video {
 
 .pt-5 {
   padding-top: 1.25rem;
+}
+
+.pb-48 {
+  padding-bottom: 12rem;
+}
+
+.pl-16 {
+  padding-left: 4rem;
 }
 
 .font-jeny {
@@ -927,6 +976,10 @@ video {
   font-weight: 100;
 }
 
+.font-semibold {
+  font-weight: 600;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -937,6 +990,10 @@ video {
 
 .leading-tight {
   line-height: 1.25;
+}
+
+.leading-loose {
+  line-height: 2;
 }
 
 .tracking-wide {
@@ -961,6 +1018,16 @@ video {
 .text-yellow-100 {
   --tw-text-opacity: 1;
   color: rgb(254 195 101 / var(--tw-text-opacity));
+}
+
+.text-black-200 {
+  --tw-text-opacity: 1;
+  color: rgb(44 44 44 / var(--tw-text-opacity));
+}
+
+.text-black-300 {
+  --tw-text-opacity: 1;
+  color: rgb(53 56 57 / var(--tw-text-opacity));
 }
 
 .placeholder-white::-moz-placeholder {
@@ -1111,6 +1178,11 @@ video {
 .hover\:bg-orange-300:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(230 96 77 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-orange-400:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 92 70 / var(--tw-bg-opacity));
 }
 
 .hover\:text-black-300:hover {
